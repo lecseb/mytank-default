@@ -2,5 +2,5 @@
 <manifest>
   <remote name="github" fetch="https://github.com/lecseb"/>
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
-  <project name="mytank-module" remote="gitbub" path="apps/mytank-module"/>
+  <project name="mytank-module" remote="github" path="apps/mytank-module"/>
 </manifest>
