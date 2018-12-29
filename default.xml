@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/lecseb"/>
-  <default name="origin" revision="master"/>
-
-
-
-  <project name="mytank-module.git" remote="origin" path="applications/mytank-module" />
-
+  <remote name="github" fetch="https://github.com/lecseb"/>
+  <default revision="refs/heads/master" remote="github" sync-j="4"/>
+  <project name="mytank-module" remote="gitbub" path="apps/mytank-module"/>
 </manifest>
