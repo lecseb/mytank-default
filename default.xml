@@ -3,4 +3,7 @@
   <remote name="github" fetch="https://github.com/lecseb"/>
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
   <project name="mytank-module" remote="github" path="apps/mytank-module"/>
+
+  <remote name="linux-remote" fetch="https://github.com/raspberrypi/"/>
+  <project name="linux" remote="linux-remote" path="apps/linux" clone-depth="1"/>
 </manifest>
